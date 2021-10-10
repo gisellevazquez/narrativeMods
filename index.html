@@ -7,6 +7,7 @@
    <meta name="keywords"
    content="Modding, Narrative, Game Design, Cyberpunk">
 
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <link href="bootstrap-5.1.0-dist\css\bootstrap.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
@@ -19,6 +20,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet"> 
+    <!---Bootstrap 5.1.2 & jquery-3.6.0.slim.min.js (latest ver - not working on menu toggle functions)-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
 
 
 </head>
@@ -30,8 +35,7 @@
                 <a class="DisplayS" href="index.html">
                     <img class="navbar-brand" src="images\Header\cyberpunk-2077-13.png" alt="CP2077 Narrative Stuff">
                 </a>
-
-                                                        
+                         
                 </div>
                 <button class="navbar-toggler" type="button" 
                 data-bs-toggle="collapse"data-bs-target="#navbarNav" 
@@ -45,8 +49,18 @@
                  <div class="navigation__menu collapse navbar-collapse" id="navbarNav">
                     <ul class="navigation__menu navbar-nav">
                     <li class="nav-item"><a href="pages\PebcakMod.html">Pebcak radio Mod</a></li>
-                    <li><a href="pages\Research.html">Research</a></li>
-                    <li><a href="pages\ExtRes.html">Ext Resources</a></li>
+                    <li class="dropdown-toggle" id="dropdownMenu1" 
+                    data-toggle="dropdown" aria-haspopup="true" 
+                    aria-expanded="false"><a href="">Research</a></li>
+                    <!--Dropdown-->
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                      <a class="dropdown-item" href="pages\Research.html">Research Basis</a>
+                      <a class="dropdown-item" href="pages\CyberpunkResearch.html">Cyberpunk Research</a>
+                      <a class="dropdown-item" href="pages\ExtRes.html">External Links</a>
+                    </div>
+                    <!--Dropdown end-->
+
+                    <li><a href="pages\Modding-the-game.html">Modding The Game</a></li>
                     <li><a href="pages\About.html">About</a></li>
 
                     <li><button class="switch" id="switch"> Dark </button></li>
@@ -61,11 +75,12 @@
      </header>
 <main>
 
-    <!--carrousel start-->
-    <div class="textOverBanner">CP2077 Narrative Modding</div>
-
-
-    <div id="carouselExampleIndicators" class="carousel slide carouselDesktop" data-bs-ride="carousel">
+    
+    <div class="-position"> 
+      <div class="textOverBanner">CP2077 Narrative Modding</div>
+      <!--carrousel start-->
+      <div id="carouselExampleIndicators" class="carousel slide carouselDesktop" data-bs-ride="carousel">
+      
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -85,8 +100,13 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>    
+        
+      </div>
+      
         <!-- carrusel de imagenes Desktop -->
+
+    </div>
+    
 
        
 
@@ -274,6 +294,9 @@
 </footer>
 <script src="bootstrap-5.1.0-dist\js\bootstrap.js"></script>
 <script src="Js\main.js"></script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://code.jquery.com/jquery.js"></script>
+
 
 </body>
 
