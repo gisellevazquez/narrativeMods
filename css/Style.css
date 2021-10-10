@@ -761,6 +761,9 @@ body.darkmode {
 .darkmode .modal-footer {
   background: #1f1f1f; }
 
+.darkmode .dropdown-menu {
+  background: #1f1f1f; }
+
 .darkmode footer {
   background: black;
   color: white; }
@@ -768,7 +771,7 @@ body.darkmode {
     filter: invert(100%); }
 
 .darkmode a:visited {
-  color: #8200ce; }
+  color: #db0d15; }
 
 .darkmode nav img {
   filter: invert(100%); }
@@ -781,25 +784,25 @@ body.darkmode {
 
 .darkmode .switch {
   background: #181818;
-  border: 2px solid white;
+  border: 2px solid #f3e300;
   color: white;
-  border-radius: 1000px; }
+  border-radius: 2px; }
 
 .switch {
   border: 2px solid black;
   width: 100px;
   height: 40px;
-  border-radius: 1000px;
+  border-radius: 2px;
   cursor: pointer;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
   margin: 10px;
   padding: 5px; }
   .switch:active {
-    background: #dddddd;
+    background: #f3e300;
     border: 2px solid white;
     color: white;
-    border-radius: 1000px; }
+    border-radius: 2px; }
 
 #shopimg1 {
   grid-area: shopimg1; }
@@ -884,7 +887,7 @@ a {
     color: black;
     text-decoration: none; }
   a:visited {
-    color: #292929; }
+    color: #db0d15; }
 
 h1 {
   font-family: 'Open Sans', sans-serif;
@@ -1570,24 +1573,26 @@ ol {
 .textOverBanner {
   font-family: 'Allerta Stencil', sans-serif;
   display: flex;
-  position: absolute;
   color: white;
   z-index: 100; }
   @media screen and (min-width: 320px) {
     .textOverBanner {
       font-size: 50px;
       left: 100px;
-      top: 200px; } }
+      top: 200px;
+      position: absolute; } }
   @media screen and (min-width: 768px) {
     .textOverBanner {
       font-size: 50px;
       left: 150px;
-      top: 300px; } }
+      top: 300px;
+      position: absolute; } }
   @media screen and (min-width: 1200px) {
     .textOverBanner {
       font-size: 100px;
       left: 150px;
-      top: 350px; } }
+      top: 200px;
+      position: absolute; } }
 
 .laterLol {
   border: solid 2px #000000;
@@ -1605,3 +1610,10 @@ ol {
   cursor: pointer;
   font-size: 15px;
   font-weight: 700; }
+
+.-position {
+  position: absolute; }
+
+.dropdown-item:focus {
+  color: #1e2125;
+  background-color: #f3e300; }
