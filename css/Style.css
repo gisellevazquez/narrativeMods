@@ -752,6 +752,15 @@ body.darkmode {
   background: #1f1f1f;
   color: white; }
 
+.darkmode .modal-body {
+  background: #1f1f1f; }
+
+.darkmode .modal-header {
+  background: #1f1f1f; }
+
+.darkmode .modal-footer {
+  background: #1f1f1f; }
+
 .darkmode footer {
   background: black;
   color: white; }
@@ -1591,3 +1600,8 @@ ol {
 
 .normalizeGrids__titles {
   font-size: 18px; }
+
+.clickHereImAHref {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700; }
