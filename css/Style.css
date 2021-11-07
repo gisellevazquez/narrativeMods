@@ -280,6 +280,15 @@
     margin: 5% 10% 10% 10%; } }
 
 /*desktop ends*/
+@media screen and (min-width: 320px) {
+  footer img {
+    height: 30px; } }
+
+@media screen and (min-width: 1200px) {
+  footer img {
+    height: 50px;
+    margin: 10px; } }
+
 .community {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -1335,19 +1344,20 @@ ol {
   font-family: 'Allerta Stencil', sans-serif;
   display: flex;
   color: white;
-  z-index: 100; }
+  z-index: 100;
+  padding: 150px 0 0 0; }
   @media screen and (min-width: 320px) {
     .textOverBanner {
       font-size: 50px;
       left: 20%;
-      top: 200px;
-      position: absolute; } }
+      position: absolute;
+      padding: 150px 0 0 0; } }
   @media screen and (min-width: 768px) {
     .textOverBanner {
       font-size: 50px;
       left: 150px;
-      top: 300px;
-      position: absolute; } }
+      position: absolute;
+      padding: 150px 0 0 0; } }
   @media screen and (min-width: 1200px) {
     .textOverBanner {
       font-size: 100px;
@@ -1381,3 +1391,11 @@ ol {
   display: flex;
   max-width: 50%;
   height: auto; }
+
+/*whimsical frames*/
+#canvas-container-2c82a11c-678a-40f5-9c24-8424eb28d5b4 {
+  width: 200%;
+  height: 200%; }
+
+.normalizeGrids iframe {
+  height: 500px; }
