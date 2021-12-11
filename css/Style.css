@@ -1325,8 +1325,9 @@ ol {
   grid-template-rows: repeat(auto-fit, minmax(50px, 1fr));
   grid-gap: 1rem; }
   .normalizeGrids img {
-    width: 100%;
-    height: auto; }
+    width: 70%;
+    height: auto;
+    text-align: center; }
   .normalizeGrids iframe {
     width: 100%;
     height: auto; }
@@ -1362,7 +1363,6 @@ ol {
     .textOverBanner {
       font-size: 100px;
       left: 150px;
-      top: 320px;
       position: absolute; } }
 
 .laterLol {
@@ -1399,3 +1399,6 @@ ol {
 
 .normalizeGrids iframe {
   height: 500px; }
+
+.textBlocks {
+  margin: 50px 0 50px 0; }
