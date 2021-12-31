@@ -561,7 +561,7 @@ body.darkmode {
   height: 40px;
   border-radius: 2px;
   cursor: pointer;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
   margin: 10px;
   padding: 5px; }
@@ -627,7 +627,7 @@ body.darkmode {
   padding: 10px; }
 
 .navigation__menu ul li {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
   list-style-type: none;
   margin: 0;
@@ -660,7 +660,7 @@ a {
   background-color: black; }
 
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   text-align: left;
   line-height: 28px; }
@@ -673,19 +673,19 @@ h1 {
   padding-bottom: 20px; }
 
 h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   text-align: left;
   line-height: 18px; }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   text-align: left;
   line-height: 18px; }
 
 h4 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   text-align: left;
   line-height: 18px; }
@@ -694,7 +694,7 @@ h4 {
   color: yellowgreen; }
 
 h5 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   font-size: 13px;
   line-height: 18px; }
@@ -704,7 +704,7 @@ h5 {
   margin: 20px; }
 
 .price {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 13px;
   text-align: left;
@@ -717,7 +717,7 @@ h5 {
   padding-left: 50px; }
 
 .price_old {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 13px;
   text-align: left;
@@ -729,7 +729,7 @@ h5 {
 ul {
   padding-left: 0rem; }
   ul li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 12px;
     list-style-type: none;
     margin: 0;
@@ -752,7 +752,7 @@ ul {
 .breadcrumb {
   margin: 00px 0px 5px 50px; }
   .breadcrumb p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-size: 13px;
     text-align: left;
@@ -784,7 +784,7 @@ ul {
   cursor: crosshair; }
 
 .buttonTo button {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 18px;
   padding: 20px 2;
@@ -808,7 +808,7 @@ button {
   margin-left: 20px; }
 
 #clear {
-  font-family: "open sans" , sans-serif;
+  font-family: "open sans", sans-serif;
   font-style: italic;
   font-size: 13px;
   color: #acacac;
@@ -821,21 +821,21 @@ button {
   background-color: black; }
 
 .bigletter {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 50px;
   line-height: 20px;
   font-weight: bolder;
   margin-top: 45px; }
 
 .Ntext {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 13px;
   text-align: left;
   line-height: 18px; }
 
 .textBlackFun {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 13px;
   text-align: left;
@@ -843,7 +843,7 @@ button {
   color: azure;
   background-color: black; }
   .textBlackFun:hover {
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     font-weight: 400;
     font-size: 13px;
     text-align: left;
@@ -901,14 +901,14 @@ button {
     height: 1px; } }
 
 .contactForm {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
   line-height: 18px;
   padding: 50 px;
   margin: 0 100px 0px 100px; }
 
 #spanishTr {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: italic;
   font-size: 13px;
   line-height: 18px; }
@@ -917,7 +917,7 @@ button {
   background-color: white;
   color: black;
   border: 2px solid #000000;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   padding: 10px 24px;
   width: 150px; }
   .sendButton:hover {
@@ -928,7 +928,7 @@ button {
 .cleanButton {
   background-color: white;
   color: black;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   padding: 10px 24px;
   border: 2px solid #dfdfdf;
   margin-left: 20px;
@@ -938,7 +938,7 @@ button {
     background-color: white;
     color: red;
     border: 2px solid #000000;
-    font-family: 'Roboto Mono',monospace;
+    font-family: "Roboto Mono", monospace;
     padding: 10px 24px;
     margin-left: 20px;
     margin-right: 20px; }
@@ -952,10 +952,10 @@ button {
   margin: 8px 0;
   box-sizing: content-box; }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   border: 3px solid #555; }
 
-input[type=tel]:focus {
+input[type="tel"]:focus {
   border: 3px solid #555; }
 
 textarea {
@@ -974,7 +974,7 @@ select {
   border: none;
   border-radius: 4px;
   background-color: #ebebeb;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 .containerChkBox {
   padding-left: 35px;
@@ -1123,12 +1123,12 @@ svg {
   background-color: #160057; }
   .Container404__box--line p {
     color: white;
-    font-family: 'Roboto Mono', monospace;
+    font-family: "Roboto Mono", monospace;
     text-align: center;
     padding: 0.5em; }
 
 .Container404__box--text {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 2em;
   text-align: center;
   color: black;
@@ -1137,7 +1137,7 @@ svg {
 
 .Container404__box--button {
   color: black;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-align: center;
   padding: 0.5em;
   border: 2px solid black;
@@ -1197,12 +1197,12 @@ svg {
   grid-template-rows: 0.1fr 0.1fr;
   column-gap: 5px; }
   .gridItem__gridinfo--color p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     padding: 0px 0 10px 0;
     grid-column-start: 1;
     grid-row-start: 1; }
-  .gridItem__gridinfo--color input[type=radio] {
+  .gridItem__gridinfo--color input[type="radio"] {
     display: none; }
 
 .gridItem__gridinfo--color--button {
@@ -1218,7 +1218,7 @@ svg {
     left: 2%;
     border-radius: 100%;
     background: #eeeeee;
-    transition: ease .3s;
+    transition: ease 0.3s;
     border: 1px solid black; }
 
 .greyButton {
@@ -1251,7 +1251,7 @@ svg {
   grid-template-rows: 0.1fr 0.1fr;
   column-gap: 5px; }
   .gridItem__gridinfo--size p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 15px;
     padding: 0px 0 10px 0;
     grid-column-start: 1;
@@ -1287,13 +1287,13 @@ svg {
     text-align: center;
     align-self: center;
     align-content: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 13px;
     line-height: 18px;
     padding: 20px 2; }
     .gridItem__gridinfo--add button:hover {
       background-color: #e7f0f3;
-      font-family: 'Open Sans', sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-size: 13px;
       line-height: 18px;
       padding: 20px 2; }
@@ -1342,7 +1342,7 @@ ol {
   text-decoration: underline; }
 
 .textOverBanner {
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: "Allerta Stencil", sans-serif;
   display: flex;
   color: white;
   z-index: 100;
@@ -1387,7 +1387,7 @@ ol {
   background-color: #f3e300; }
 
 .YellowBackground {
-  background-color: #F3E600;
+  background-color: #f3e600;
   display: flex;
   max-width: 50%;
   height: auto; }
@@ -1402,3 +1402,17 @@ ol {
 
 .textBlocks {
   margin: 50px 0 50px 0; }
+
+.textBlackFunNormal {
+  text-align: left;
+  line-height: 18px;
+  color: azure;
+  background-color: black; }
+  .textBlackFunNormal:hover {
+    text-align: left;
+    line-height: 18px;
+    color: #48ff00;
+    background-color: darkblue;
+    animation-name: colorfun;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; }
